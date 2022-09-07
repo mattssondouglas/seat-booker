@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Seat booker</title>
+  </head>
+  <body>
+    <!-- Select movie -->
+    <div class="movie-container">
+      <label>Pick a movie:</label>
+      <select id="movie">
+        <option value="11.90">Jurassic Park $(11.90)</option>
+        <option value="13.90">Top Gun: Maverick $(13.90)</option>
+        <option value="9.90">Bullet Train $(9.90)</option>
+        <option value="9.90">Elvis $(9.90)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat">
+          <small>N/A</small>
+        </div>
+      </li>
+      <li>
+        <div class="seat selected">
+          <small>Selected</small>
+        </div>
+      </li>
+      <li>
+        <div class="seat occupied">
+          <small>Occupied</small>
+        </div>
+      </li>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
